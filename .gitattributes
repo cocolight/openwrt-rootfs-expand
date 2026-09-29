@@ -1,0 +1,5 @@
+# Keep shell scripts LF even on Windows checkouts, otherwise Linux fails with
+# "bad interpreter: /usr/bin/env bash^M".
+* text=auto eol=lf
+*.sh text eol=lf
+*.md text eol=lf
